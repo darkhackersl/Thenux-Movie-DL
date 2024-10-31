@@ -69,7 +69,7 @@ if (window.innerWidth < 594) {
 }
 if (window.innerWidth < 994) {
     $("#title").css("color", "black");
-    let path = "../assets/bg2.svg"
+    let path = "../assets/bg.svg.png"
     $("body").css({
         "background": `url(${path})`,
         "background-size": "cover",
