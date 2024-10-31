@@ -52,10 +52,10 @@ async function fetchMovie(movieName) {
             showAlert("😩", "We do not have 2160p torrents!", "error")
         }
         /*Appending the home button after fetching movies.*/
-        $(".movieDetails").append("<a href=''><button id=homeButton class='btn btn-dark downloadButtons  animate__animated animate__rubberBand' type='button'>" + "Back to home!" + "</button>")
+        $(".movieDetails").append("<a href=''><button id=homeButton class='btn btn-dark downloadButtons  animate__animated animate__rubberBand' type='button'>" + "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ!" + "</button>")
 
     } catch (e) {
-        showAlert("😩", "Movie not found!", "error")
+        showAlert("", "❝𝐌𝐨𝐯𝐢𝐞 𝐧𝐨𝐭 𝐟𝐨𝐮𝐧𝐝!❞", "error")
         $("#searchBar").val("");
         $("#searchBar").css("display", "block");
     }
@@ -69,7 +69,7 @@ if (window.innerWidth < 594) {
 }
 if (window.innerWidth < 994) {
     $("#title").css("color", "black");
-    let path = "../assets/bg.svg.png"
+    let path = "../assets/bg.svg"
     $("body").css({
         "background": `url(${path})`,
         "background-size": "cover",
