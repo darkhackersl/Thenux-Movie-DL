@@ -37,7 +37,7 @@ body{
     text-align: center;
     font-family: 'Tilt Warp', cursive;
     font-size: 1.5rem;
-    color: white;
+    color: DarkGray;
     margin-top: 3rem;
     margin-left: 5rem;
 }
@@ -61,7 +61,7 @@ body{
     color: white;
 }
 #title{
-    color: white;
+    color: MintCream;
     text-align: center;
     font-family: 'Tilt Warp', cursive;
     font-size: 8rem;
